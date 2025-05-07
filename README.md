@@ -196,9 +196,6 @@ Several advanced capabilities are planned to make this system more dynamic, adap
 ### Geospatial Generalization
 - Extend from individual point-based predictions (lat/lon) to county- or ZIP-level aggregation for easier regional analysis.
 
-### Deep Learning Yield Models
-- Replace traditional Random Forests with Multi-Layer Perceptrons (MLPs) or Graph Neural Networks (GNNs) to model complex interactions between soil-climate-crop systems.
-
 ### Reinforcement Learning for Adaptive Planning
 - Introduce **Reinforcement Learning (RL)** to simulate and optimize multi-season farming strategies.
   - The agent (farmer) receives rewards based on yield stability, climate resilience, and resource efficiency.
@@ -208,21 +205,12 @@ Several advanced capabilities are planned to make this system more dynamic, adap
 ### Crop Rotation and Resource Optimization
 - Expand from single-season prediction to multi-season planning, optimizing for soil health and long-term productivity.
 
-### Real-Time Forecast Integration
-- Connect to live APIs (e.g., OpenWeather, ECMWF) to update yield forecasts and crop recommendations dynamically during the growing season.
-
 ### Interactive Farmer Dashboard
 - Build a user-friendly web application (Streamlit or Dash) where users can:
   - Select their location
   - View crop suitability scores
   - Download yield predictions
   - Upload actual performance data
-
-### Satellite Monitoring (NDVI)
-- Integrate NDVI-based vegetation indices from Sentinel or Landsat satellites to validate predicted performance and detect early crop stress.
-
-### Farmer Feedback Loop
-- Collect actual yield outcomes from farmers to fine-tune predictions and personalize recommendations over time.
 
 ## Contributors
 - **Sree Nandha Sivakumaran**  
