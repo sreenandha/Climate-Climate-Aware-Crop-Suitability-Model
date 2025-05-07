@@ -1,0 +1,27 @@
+SELECT 
+    mapunit.mukey, 
+    mapunit.muname, 
+    component.cokey, 
+    component.compname, 
+    component.comppct_r, 
+    component.slope_r, 
+    component.drainagecl, 
+    chorizon.hzdept_r, 
+    chorizon.hzdepb_r, 
+    chorizon.ph1to1h2o_r, 
+    chorizon.om_r, 
+    chorizon.sandtotal_r, 
+    chorizon.claytotal_r, 
+    muaggatt.aws0150wta, 
+    mucropyld.cropname, 
+    mucropyld.nonirryield_r, 
+    mucropyld.yldunits
+FROM 
+(
+    (mapunit 
+    INNER JOIN mucropyld ON mapunit.mukey = mucropyld.mukey) 
+    INNER JOIN 
+    (component INNER JOIN chorizon ON component.cokey = chorizon.cokey) 
+    ON mapunit.mukey = component.mukey
+) 
+INNER JOIN muaggatt ON (mucropyld.mukey = muaggatt.mukey) AND (mapunit.mukey = muaggatt.mukey);
