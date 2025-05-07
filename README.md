@@ -11,12 +11,6 @@ This system empowers farmers, agricultural planners, and policymakers to make sm
 1. [Introduction](#introduction)
 2. [Key Features](#key-features)
 3. [Data Sources](#data-sources)
-4. [Methodology](#methodology)
-5. [Model Training and Forecasting](#model-training-and-forecasting)
-6. [Results and Interpretation](#results-and-interpretation)
-7. [How to Use](#how-to-use)
-8. [Future Enhancements](#future-enhancements)
-9. [Contributors](#contributors)
 
 ## Introduction
 
