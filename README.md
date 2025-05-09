@@ -224,6 +224,8 @@ Key Comparisons:
 - USDA Future Crop Suitability Tool
     Scope: Provides projections for specialty crops under future climate scenarios.
     Our Advantage: Offers broader crop coverage with detailed soil and climate integration, enhancing decision-making for a wider range of stakeholders.
+
+
 Distinctive Features of Our System:
 - Integrated Climate Pressure Index (CPI): A novel metric that quantifies climate stress on crops, aiding in proactive decision-making.
 - High Predictive Accuracy: Achieved an R² of 0.993 in yield regression, indicating robust model performance.
