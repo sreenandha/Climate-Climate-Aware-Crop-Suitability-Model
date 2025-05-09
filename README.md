@@ -16,7 +16,8 @@ This system empowers farmers, agricultural planners, and policymakers to make sm
 6. [Results and Interpretation](#results-and-interpretation)
 7. [How to Use](#how-to-use)
 8. [Future Enhancements](#future-enhancements)
-9. [Contributors](#contributors)
+9. [Comparison with Existing Crop Suitability Systems](#Comparison-with-Existing-Crop-Suitability-Systems)
+10. [Contributors](#contributors)
 
 
 ## Introduction
@@ -211,6 +212,24 @@ Several advanced capabilities are planned to make this system more dynamic, adap
   - View crop suitability scores
   - Download yield predictions
   - Upload actual performance data
+
+### Comparison with Existing Crop Suitability Systems
+Key Comparisons:
+- Ecocrop (FAO)
+    Scope: Offers a global database assessing crop viability based on environmental parameters.
+    Our Advantage: Incorporates both soil and climate data, providing a more comprehensive and localized analysis.
+- CropSuite
+    Scope: An open-source model that integrates various environmental and management factors using fuzzy logic.
+    Our Advantage: Designed with a focus on adaptability, our system seamlessly integrates regional data, ensuring relevance across diverse geographies.
+- USDA Future Crop Suitability Tool
+    Scope: Provides projections for specialty crops under future climate scenarios.
+    Our Advantage: Offers broader crop coverage with detailed soil and climate integration, enhancing decision-making for a wider range of stakeholders.
+Distinctive Features of Our System:
+- Integrated Climate Pressure Index (CPI): A novel metric that quantifies climate stress on crops, aiding in proactive decision-making.
+- High Predictive Accuracy: Achieved an R² of 0.993 in yield regression, indicating robust model performance.
+- User-Centric Design: Emphasizes accessibility and usability, ensuring that farmers, policymakers, and researchers can effectively utilize the tool.
+- Scalability: Built to accommodate expansion across different regions and crop types, facilitating broader applications.
+
 
 ## Contributors
 - **Sree Nandha Sivakumaran**  
